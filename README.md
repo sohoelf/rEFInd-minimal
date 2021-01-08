@@ -3,13 +3,13 @@
 [rEFInd](http://www.rodsbooks.com/refind/) is an easy to use boot manager for UEFI
 based systems. This is a clean and minimal theme for it.
 
-![rEFInd Minimalistic](http://i.imgur.com/3bMG6U7.png)
+![rEFInd Minimalistic](screenshot_001.bmp)
 
 ### Usage
 
  1. Locate your refind EFI directory. This is commonly `/boot/EFI/refind`
     though it will depend on where you mount your ESP and where rEFInd is
-    installed. `fdisk -l` and `mount` may help.
+    installed. `fdisk -l` and `mount` and `sudo diskutil mount /dev/disk0s1` may help.
 
  2. Create a folder called `themes` inside it, if it doesn't already exist
 
